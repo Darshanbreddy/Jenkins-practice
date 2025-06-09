@@ -1,0 +1,16 @@
+pipeline {
+    agent { label 'vinod' }
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('create folder') {
+            steps {
+                sh 'mkdir -p devops'
+            }    
+        }
+    }
+}
