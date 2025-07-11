@@ -2,6 +2,9 @@ Jenkins CI/CD Pipeline for Django Notes App
 Overview
 This project demonstrates a hands-on Jenkins CI/CD pipeline setup to automate building, testing, and deploying a Django Notes App using Docker and Docker Compose. The pipeline is configured using a Jenkinsfile with Groovy syntax and incorporates a shared library for better modularity.
 
+To install jenkins Use the following link: https://www.jenkins.io/doc/book/installing/
+To check if the installation is done run: sudo systemctl status jenkins, make sure port 8080 is enabled. 
+
 What I Learned
 Creating Jenkins Freestyle and Pipeline jobs
 
